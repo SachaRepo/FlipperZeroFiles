@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+# 
+name: Yellow
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0A 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1E 00 00 00
+# 
+name: 4H
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+# 
+name: RGB
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00

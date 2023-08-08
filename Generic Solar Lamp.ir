@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 09 00 00 00
+# 
+name: On
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 01 00 00 00
+# 
+name: Color
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0B 00 00 00
+# 
+name: Dim
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 14 00 00 00
+# 
+name: 2h
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: Auto
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 17 00 00 00

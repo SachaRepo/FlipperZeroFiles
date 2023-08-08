@@ -1,0 +1,26 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: C7 00 00 00
+# 
+name: Vol +
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 10 00 00 00
+# 
+name: Vol -
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 11 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RC6
+address: 13 00 00 00
+command: 0D 00 00 00

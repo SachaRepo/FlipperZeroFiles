@@ -1,0 +1,104 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 96 56 00 00
+command: 00 00 00 00
+# 
+name: Movie
+type: parsed
+protocol: NECext
+address: 96 1E 00 00
+command: 00 00 00 00
+# 
+name: Music
+type: parsed
+protocol: NECext
+address: 96 2A 00 00
+command: 00 00 00 00
+# 
+name: Photo
+type: parsed
+protocol: NECext
+address: 96 2E 00 00
+command: 00 00 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NECext
+address: 96 1F 00 00
+command: 00 00 00 00
+# 
+name: Fast Forward
+type: parsed
+protocol: NECext
+address: 96 22 00 00
+command: 00 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 96 61 00 00
+command: 00 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 96 6B 00 00
+command: 00 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 96 6E 00 00
+command: 00 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 96 6F 00 00
+command: 00 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 96 63 00 00
+command: 00 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 96 52 00 00
+command: 00 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 96 6A 00 00
+command: 00 00 00 00
+# 
+name: Volume +
+type: parsed
+protocol: NECext
+address: 96 25 00 00
+command: 00 00 00 00
+# 
+name: Volume -
+type: parsed
+protocol: NECext
+address: 96 15 00 00
+command: 00 00 00 00
+# 
+name: Audio
+type: parsed
+protocol: NECext
+address: 96 4D 00 00
+command: 00 00 00 00
+# 
+name: On
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9321 4395 639 477 638 478 612 505 611 507 609 509 607 533 583 510 606 534 582 1651 582 1651 582 1651 582 1651 582 1651 582 534 582 534 582 1651 582 1651 582 1651 582 1651 582 534 582 1651 582 534 582 1650 583 534 582 534 582 534 582 534 582 1651 582 534 582 1651 582 534 582 1651 582 39233 9315 2162 633
